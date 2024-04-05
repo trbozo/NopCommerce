@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Custom Tests Suite">
+    <test name="Custom Tests">
+        <groups>
+            <run>
+                <include name="Login" />
+                <include name="PatientManagement" />
+            </run>
+        </groups>
+        <classes>
+            <class name="testCases.NopCommerce" />
+        </classes>
+    </test>
+</suite>

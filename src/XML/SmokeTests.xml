@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SmokeTestSuite">
+    <test name="SmokeTests">
+        <classes>
+            <class name="testCases.NopCommerce">
+                <methods>
+                    <include name="US_501" />
+                    <include name="US_502" />
+                    <include name="US_503" />
+                    <include name="US_508" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
